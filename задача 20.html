@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		input[type="text"] {
+			width: 300px;
+		}
+	</style>
+	<script>
+		function go(){
+			elem = document.getElementById('test');
+			elem.value = 'Мои css классы: '+elem.className;
+		}
+	</script>
+</head>
+<body>
+	<input type="text" value="Ку-ку" id="test" class="eee www ddd">
+	<button onclick="go()">Нажми на меня!</button>
+</body>
+</html>
